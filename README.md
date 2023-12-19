@@ -7,7 +7,7 @@ In this section:
 - Write several interfaces and corresponding implementations
 - Use service lifetime and scoping for DI
 
-Before coming to this guide, please refer to [Use AutoMapper in MVVM Pattern ASP.NET Core](https://github.com/NguyenPhuDuc307/mvvm-design-pattern).
+Before coming to this guide, please refer to [Part 5: Use AutoMapper in MVVM Pattern ASP.NET Core](https://github.com/NguyenPhuDuc307/mvvm-design-pattern).
 
 ## Create interfaces and class for services
 
@@ -257,4 +257,4 @@ Run the following command:
 dotnet watch run
 ```
 
-Next let's [Add search, sorting, pagination to ASP.NET Core MVC application](https://github.com/NguyenPhuDuc307/search-sorting-pagination).
+Next let's [Part 7: Add search, sorting, pagination to ASP.NET Core MVC application](https://github.com/NguyenPhuDuc307/search-sorting-pagination).
