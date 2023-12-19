@@ -23,7 +23,7 @@ namespace CourseManagement.Services
         Task<IEnumerable<CourseViewModel>> GetAll();
         Task<CourseViewModel> GetById(int id);
         Task<int> Create(CourseRequest request);
-        Task<int> Update(int id, CourseViewModel request);
+        Task<int> Update(CourseViewModel request);
         Task<int> Delete(int id);
     }
 }
@@ -81,7 +81,7 @@ namespace CourseManagement.Services
             return _mapper.Map<CourseViewModel>(course);
         }
 
-        public async Task<int> Update(int Id, CourseViewModel request)
+        public async Task<int> Update(CourseViewModel request)
         {
             if (!CourseExists(request.Id))
             {
